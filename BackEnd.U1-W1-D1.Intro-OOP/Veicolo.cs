@@ -12,7 +12,7 @@ namespace BackEnd.U1_W1_D1.Intro_OOP
         private double _velocitaMax = 0;
         private double _velocitaAttuale = 0;
         private Persona _proprietario;
-        private Boolean acceso;
+        private bool acceso;
         
         public string Targa { get { return _targa; } set { _targa = value; } }
         public string Tipo { get { return _tipo; } set { _tipo = value; } } 
